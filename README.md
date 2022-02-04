@@ -98,8 +98,6 @@ desktop application/stand alone applications: i have to compulsory install the s
 Which companies are using python?
 youtube, facebook, twitter, instagram,github,dropbox ,google,amazon etc
 
-#
-
 # Free ware & open source software (FOSS):
 
 Freeware:
@@ -117,8 +115,6 @@ OpenSource: implementation of python program langu: is open to all
 chemical equations : pharmaceutical : customize python acc to ur requirement: new flavour of python:pharmapython  
 bought a house from a builder: buyer is not satisfied : customize the house as per requirement
 
-#
-
 # flavours of python:
 
 1. cpython
@@ -130,8 +126,8 @@ bought a house from a builder: buyer is not satisfied : customize the house as p
 6. anaconda python:sometimes i want to handle , analyze very huge amount of data:  
    throughout the world : flipkart , amazon: billions of people
 
-windows: o.s: u cant customize: is not open source  
-unix: os: Linux, Redhat, ubuntu, hp linux: flavours: open source
+_windows: o.s: u cant customize: is not open source  
+unix: os: Linux, Redhat, ubuntu, hp linux: flavours: open source_
 
 4. Platform independent: once if python program is developed, it will run on any platform:  
    like on windows, unix, mac os, other
@@ -210,9 +206,7 @@ for every programming language: set of rules & regulations: syntax
 7.  dynamically typed progra lanaugage: in python we r not required to specify the type of the variable at the time of its declaration  
     c,c++,java: statically typed programming language means every variable must be declared along with data type
 
-#
-
-# All the feature of python prog lang:
+# All the feature of python programming language:
 
 ```
 float avg=6.35
@@ -234,13 +228,14 @@ In Python Backward compatibility is not possible:
 
 from python 3.x version: print("hello")
 
-**Identifiers:**  
-a program is a collection of so many elements
+# Identifiers:
+
+A program is a collection of so many elements  
 for some elements in the program we r supposed to give some name
 
-those named elemets referred as Identifier
+Those named elemets referred as Identifier
 
-in python program for which elements we r supposed to give name?
+In python program for which elements we r supposed to give name?
 
 - variable
 - functions
@@ -264,8 +259,6 @@ rules:
 5. No other symbol is allowed except `(\_)`
 6. keywords cant be used for naming purpose
 
----
-
 # what is a keyword?
 
 is a reserved word : we are not allowed to use keywords for naming any element  
@@ -273,8 +266,6 @@ total : 36 keywords
 
 self=58.369: they r assuming that self is a keyword :  
 ans: self is not a keyword
-
----
 
 ## List of keywords in python:
 
@@ -391,7 +382,7 @@ avg=99.99
 
 integers: decimal, octal, hexadecimal numbers system
 
-## in 4 ways:
+## In 4 ways:
 
 - any integer in decimal system: 0 to 9  
   base 10
@@ -453,7 +444,7 @@ all the above operations are possible on bool type
 
 ## str:
 
-anything/ collection of characters represented within :
+Anything/ collection of characters represented within :
 
 1. single quotes
 2. double quotes  
@@ -558,7 +549,7 @@ here + is called as concatenation operator
 ```
 
 here * is multiplication operator  
-*uif \_ is used as repetition operator : one operand must be str type & other operand must be int only\*
+*uif `\_` is used as repetition operator : one operand must be str type & other operand must be int only `\*`  
 slicing: with slicing we can access required portion of the string
 
 variable_name[begin:end:step ]: it will return from begin to end-1 only  
@@ -582,7 +573,7 @@ alp[7:10000]
 OUTPUT: 'HIJKLMNOPQRSTUVWXYZ'
 ```
 
-if the specified value for end_index is out of range then python by default consider len(str) value for end index
+If the specified value for end_index is out of range then python by default consider len(str) value for end index
 
 ```
 alp[-500:26]
@@ -590,7 +581,7 @@ alp[-500:26]
 OUTPUT: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ```
 
-in this case begin index is out of range, however python never raise any error because it will consider default value for begin index
+In this case begin index is out of range, however python never raise any error because it will consider default value for begin index
 
 which is "0"
 
@@ -600,7 +591,7 @@ alp[:10]
 OUTPUT: 'ABCDEFGHIJ'
 ```
 
-in this case also default value for begin index is considered, if u dont specify
+In this case also default value for begin index is considered, if u dont specify
 any value for begin index
 
 ```
@@ -609,7 +600,7 @@ alp[22:]
 OUTPUT: 'WXYZ'
 ```
 
-if u wont specify any value for end index: default value will be considered: len(str)
+If u wont specify any value for end index: default value will be considered: len(str)
 
 ```
 alp[:]
@@ -617,7 +608,7 @@ alp[:]
 OUTPUT: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ```
 
-here default values for both & end index will be considered
+Here default values for both & end index will be considered
 default value for step: is always +1
 
 ```
