@@ -736,7 +736,7 @@ It can done in various ways:
 
 ## Type casting/coercion: conversion of one data type into another data type
 
-# . int():
+# 1. int():
 
 ## By using this function we can convert any other data type into int type
 
@@ -793,9 +793,11 @@ File "<stdin>", line 1, in <module>
 TypeError: can't convert complex to float
 ```
 
-## ValueError: could not convert string to float: 'one.two'
+ValueError: could not convert string to float: 'one.two'
 
-3. bool(): it is a built in function to convert any other data type into bool type
+# 3. bool():
+
+## it is a built in function to convert any other data type into bool type
 
 int to bool: yes  
 float to bool: yes  
