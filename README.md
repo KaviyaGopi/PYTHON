@@ -664,3 +664,166 @@ alp[::-1]
 
 OUTPUT: 'ZYXWVUTSRQPONMLKJIHGFEDCBA'
 ```
+
+# Data types:
+
+1. int
+2. float
+3. complex
+4. bool
+5. str
+
+All the above data types are considered as fundamental data types in python:
+
+output statement:
+if u want to print something on console, generally we use output statement in python
+python provides a built in / predefined/readymade function called as
+print() function
+
+```
+syntax: print(str)
+```
+
+```
+ex:
+
+print('M.PAVAN')
+```
+
+> Note: to add comment line to your program in python we use # symbol but this is for single line comments only
+
+Argument: is nothing but input supplied to the function call statement
+How to create comments in python?
+
+1. single line comments: any line that starts with # is treated as comment line
+   Note: compiler,pvm ignore the comment lines
+2. Multiline comments: all the comment lines must start&ends with '''
+
+```
+Can I pass more than one input/argument to the print?
+ans: yes,but all the arguments must be seperated by comma(,)
+```
+
+> Note: but while printing all these arguments to the console python will
+> seperate all these argments bydefault with a space character
+
+Backslash characters: (escape characters)
+any backslash character takes the following form:
+
+```
+`\n` - newline
+`\t` - tab character ( 1 tab=8 spaces)
+```
+
+sep - parameter  
+end- parameter  
+String interpolation: substituting the value of variable with in a string  
+It can done in various ways:
+
+1. %formatting  
+   %d - decimal integer
+2. format() method
+3. f string literal
+4. update to f string literal: newer vesion
+
+# Fundamental data types in python:
+
+- int
+- float
+- str
+- bool
+- complex
+
+## Type casting/coercion: conversion of one data type into another data type
+
+# . int():
+
+## By using this function we can convert any other data type into int type
+
+float ==> int:yes  
+ bool ==> int: Yes  
+ complex ==> int: no  
+ str ==> int: yes
+
+> Note: str must contain integer value only represented in base 10 format
+
+```
+int(1.25)
+OUTPUT: 1
+```
+
+```
+int(True)
+OUTPUT: 1
+```
+
+```
+int(False)
+OUTPUT: 0
+```
+
+```
+int(2+3j)
+
+OUTPUT: Traceback (most recent call last):
+        File "<stdin>", line 1, in <module>
+        TypeError: can't convert complex to int
+```
+
+# 2. float():
+
+## built in function to convert any data type into float type
+
+int ==> float : yes  
+complex ==> float : no  
+bool ==> float : yes  
+str ==> float: yes
+
+> Note: str must be either integer value or float value
+
+```
+float(5)
+OUTPUT: 5.0
+```
+
+```
+float(2+3j)
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+TypeError: can't convert complex to float
+```
+
+## ValueError: could not convert string to float: 'one.two'
+
+3. bool(): it is a built in function to convert any other data type into bool type
+
+int to bool: yes  
+float to bool: yes  
+complex to bool: yes  
+str to bool: yes
+
+```
+bool(25)
+
+OUTPUT: True
+```
+
+```
+bool(0)
+
+OUTPUT: False
+```
+
+```
+bool(-9)
+
+OUTPUT: True
+```
+
+# True
+
+4. complex(): built in function to convert any data type into complex type
+
+int to complex: yes  
+float to complex: yes  
+bool to complex: yes
