@@ -740,10 +740,10 @@ It can done in various ways:
 
 ## By using this function we can convert any other data type into int type
 
-float ==> int:yes  
- bool ==> int: Yes  
- complex ==> int: no  
- str ==> int: yes
+float to int : yes  
+ bool to int : Yes  
+ complex to int : no  
+ str to int : yes
 
 > Note: str must contain integer value only represented in base 10 format
 
